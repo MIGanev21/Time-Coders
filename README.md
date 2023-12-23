@@ -38,12 +38,12 @@
  
 <h4>Documents</h4>
   <ul>
-    <li><a href="My-Digital-Will-Project/Documentation/Time Coders_documentation">Documentation</a></li>
+    <li><a href="My-Digital-Will-Project/Documentation/Time Coders_documentation.docx">Documentation</a></li>
     <li><a href="">QA Table</a></li>
   </ul> 
 <h4>Presenting</h4>
   <ul>    
-    <li><a href="My-Digital-Will-Project/Documentation/presentation">Presentation</a></li>
+    <li><a href="My-Digital-Will-Project/Documentation/presentation.pptx">Presentation</a></li>
   </ul> 
    
 
