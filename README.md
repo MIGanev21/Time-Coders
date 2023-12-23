@@ -1,7 +1,7 @@
 <h1 align="center">Time Coders</h1>
 
 <p align = "center">
- <img height="300" width="350" src = "" alt = "logo">
+ <img height="300" width="500" src = "My-Digital-Will-Project/Logo/Logo.png" alt = "logo">
 </p>
 
 <br>
@@ -38,12 +38,12 @@
  
 <h4>Documents</h4>
   <ul>
-    <li><a href="">Documentation</a></li>
+    <li><a href="My-Digital-Will-Project/Documentation/Time Coders_documentation">Documentation</a></li>
     <li><a href="">QA Table</a></li>
   </ul> 
 <h4>Presenting</h4>
   <ul>    
-    <li><a href="">Presentation</a></li>
+    <li><a href="My-Digital-Will-Project/Documentation/presentation">Presentation</a></li>
   </ul> 
    
 
