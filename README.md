@@ -7,10 +7,10 @@
 <br>
 
 <p align = "center">
-  <img alt="GitHub contributors" src="">
-  <img alt="GitHub repo size" src="">
-  <img alt="GitHub last commit" src="">
-  <img src="">
+  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/MIGanev21/My-Digital-Will-Project?style=flat-square">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/MIGanev21/My-Digital-Will-Project?style=flat-square">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/MIGanev21/My-Digital-Will-Project?style=flat-square">
+  <img src="https://img.shields.io/github/languages/count/MIGanev21/My-Digital-Will-Project?style=flat-square">
 </p> 
 
 ## 📋 Description
