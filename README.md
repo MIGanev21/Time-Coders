@@ -73,7 +73,7 @@ Or by pasting the following code in your CMD:
 | Stelian Nikolov |  *Front-end developer*  | 🟦 10G |
 
 
-## 🎮 ECO Pirates
+## 
 
 <img height="600" width="1050" src = ""/>
 <img height="600" width="1050" src = ""/>
