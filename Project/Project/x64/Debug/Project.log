@@ -1,4 +1,2 @@
 ﻿  Project.cpp
-  Project.vcxproj -> C:\Users\lazar\source\repos\Time-Coders\Project\x64\Debug\Project.exe
-  'pwsh.exe' is not recognized as an internal or external command,
-  operable program or batch file.
+C:\Users\ganev\OneDrive\Работен плот\Time-Coders\Project\Project\Project.cpp(1,10): error C1083: Cannot open include file: 'raylib.h': No such file or directory
