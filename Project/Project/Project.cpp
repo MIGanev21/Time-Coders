@@ -2,7 +2,7 @@
 #define MAX_INPUT_CHARS     5
 
 
-void ToggleFullScreeWindow(int windowWidth, int windowHeight)
+void ToggleFullScreenWindow(int windowWidth, int windowHeight)
 {
     if (!IsWindowFullscreen())
     {
@@ -18,19 +18,19 @@ void ToggleFullScreeWindow(int windowWidth, int windowHeight)
 }
 
 
-//------------------------------------------------------------------------------------
+
 // Program main entry point
-//------------------------------------------------------------------------------------
+
 int main(void)
 {
     // Initialization
-    //--------------------------------------------------------------------------------------
+    
     const int screenWidth = 800;
     const int screenHeight = 450;
 
-    InitWindow(screenWidth, screenHeight, "raylib [text] example - input box");
+    InitWindow(screenWidth, screenHeight, "first window");
 
-    char name[MAX_INPUT_CHARS + 1] = "\0";      // NOTE: One extra space required for null terminator char '\0'
+    char name[MAX_INPUT_CHARS + 1] = "\0";      //  One extra space required for null terminator char '\0'
     int letterCount = 0;
 
     Rectangle textBox = { screenWidth / 2.0f - 100, 180, 225, 50 };
@@ -43,10 +43,12 @@ int main(void)
     // Main game loop
     while (!WindowShouldClose())    // Detect window close button or ESC key
     {
+        DrawText("Time", 900, 100, 300, BLACK);
+        DrawText("Coders", 530, 500, 300, GRAY);
         ClearBackground(RAYWHITE);
         DrawText("Login", 330, 50, 60, LIGHTGRAY); // ("text", x, y, font, color)
         if (IsKeyPressed(KEY_F))
-            ToggleFullScreeWindow(screenWidth, screenHeight);
+            ToggleFullScreenWindow(screenWidth, screenHeight); // ToggleFullScreenWindow
         // Update
 
         if (CheckCollisionPointRec(GetMousePosition(), textBox)) mouseOnText = true;
@@ -63,7 +65,7 @@ int main(void)
             // Check if more characters have been pressed on the same frame
             while (key > 0)
             {
-                // NOTE: Only allow keys in range [32..125]
+                //  Only allow keys in range [32..125]
                 if ((key >= 32) && (key <= 125) && (letterCount < MAX_INPUT_CHARS))
                 {
                     name[letterCount] = (char)key;
@@ -122,7 +124,7 @@ int main(void)
 }
 
 // Check if any key is pressed
-// NOTE: We limit keys check to keys between 32 (KEY_SPACE) and 126
+//  We limit keys check to keys between 32 (KEY_SPACE) and 126
 bool IsAnyKeyPressed()
 {
     bool keyPressed = false;
