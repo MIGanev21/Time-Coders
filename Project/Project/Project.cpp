@@ -33,7 +33,7 @@ int main(void)
     char name[MAX_INPUT_CHARS + 1] = "\0";      //  One extra space required for null terminator char '\0'
     int letterCount = 0;
 
-    Rectangle textBox = { screenWidth / 2.0f - 100, 180, 225, 50 };
+    Rectangle textBox = { screenWidth / 2.0f + 500, 900, 225, 50 };
     bool mouseOnText = false;
 
     int framesCounter = 0;
@@ -43,10 +43,10 @@ int main(void)
     // Main game loop
     while (!WindowShouldClose())    // Detect window close button or ESC key
     {
-        DrawText("Time", 900, 100, 300, BLACK);
-        DrawText("Coders", 530, 500, 300, GRAY);
+        DrawText("Time", 900, 100, 200, BLACK);
+        DrawText("Coders", 530, 300, 200, GRAY);
         ClearBackground(RAYWHITE);
-        DrawText("Login", 330, 50, 60, LIGHTGRAY); // ("text", x, y, font, color)
+        DrawText("Login", 925, 750, 60, LIGHTGRAY); // ("text", x, y, font, color)
         if (IsKeyPressed(KEY_F))
             ToggleFullScreenWindow(screenWidth, screenHeight); // ToggleFullScreenWindow
         // Update
@@ -94,15 +94,15 @@ int main(void)
         BeginDrawing();
 
 
-        DrawText("Please write your identification number:", 150, 140, 30, GRAY);
+        DrawText("Please write your identification number:", 525, 850, 30, GRAY);
 
         DrawRectangleRec(textBox, LIGHTGRAY);
         if (mouseOnText) DrawRectangleLines((int)textBox.x, (int)textBox.y, (int)textBox.width, (int)textBox.height, RED);
         else DrawRectangleLines((int)textBox.x, (int)textBox.y, (int)textBox.width, (int)textBox.height, DARKGRAY);
 
-        DrawText(name, (int)textBox.x + 5, (int)textBox.y + 8, 40, MAROON);
+       DrawText(name, (int)textBox.x + 5, (int)textBox.y + 8, 40, MAROON);
 
-        DrawText(TextFormat("INPUT CHARS: %i/%i", letterCount, MAX_INPUT_CHARS), 315, 250, 20, DARKGRAY);
+        DrawText(TextFormat("INPUT CHARS: %i/%i", letterCount, MAX_INPUT_CHARS), 915, 960, 20, DARKGRAY);
 
         if (mouseOnText)
         {
@@ -111,7 +111,7 @@ int main(void)
                 // Draw blinking underscore char
                 if (((framesCounter / 20) % 2) == 0) DrawText("_", (int)textBox.x + 8 + MeasureText(name, 40), (int)textBox.y + 12, 40, MAROON);
             }
-            else DrawText("Press BACKSPACE to delete chars...", 230, 300, 20, GRAY);
+            else DrawText("Press BACKSPACE to delete chars...", 1100, 980, 20, GRAY);
         }
 
         EndDrawing();
