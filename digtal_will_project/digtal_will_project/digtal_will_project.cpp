@@ -3,6 +3,7 @@
 using namespace std;
 
 int global_id_num;
+int choice;
 
 int main()
 {
@@ -25,18 +26,18 @@ int main()
 	cout << "----------------------------------------------2.How to get our own id number--------------------------------------------" << endl;
 	cout << "--------------------------------------------------------3.Quit----------------------------------------------------------" << endl;
 	cout << setw(20) << "Please select write you: ";
-	cin >> global_id_num;
-
-	switch (global_id_num)
+	cin >> choice;
+	cout << endl;
+	switch (choice)
 	{
 	case 1:
-		system("cls");
-		cout << "This is the login page for now!";
+		cout << "Please write your id number here: ";
+		cin >> global_id_num;
 		break;
 
 	case 2:
 		system("cls");
-		cout << "This is the expl on how to get own id num for now!";
+		cout << "To get your own id number please go in the python program fill in the needed information and you will be able to receive one";
 		break;
 
 	case 3:
@@ -47,4 +48,6 @@ int main()
 	default:
 		system("cls");
 		cout << "Have a nice day!";
+		break;
 	}
+}

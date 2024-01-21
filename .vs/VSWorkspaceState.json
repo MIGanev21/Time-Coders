@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\My-Digital-Will-Project",
-    "\\My-Digital-Will-Project\\project"
+    "\\digtal_will_project",
+    "\\digtal_will_project\\digtal_will_project",
+    "\\My-Digital-Will-Project"
   ],
-  "SelectedNode": "\\My-Digital-Will-Project\\project\\main.cpp",
+  "SelectedNode": "\\digtal_will_project\\digtal_will_project\\digtal_will_project.cpp",
   "PreviewInSolutionExplorer": false
 }
