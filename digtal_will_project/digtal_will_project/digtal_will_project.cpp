@@ -7,6 +7,7 @@ int choice;
 
 int main()
 {
+	int subs_global_id;
 	cout << " _________   ___   ___      ___    _____" << endl;
 	cout << "|         | |___| |   \\    /   |  | ____|" << endl;
 	cout << "|__     __|  ___  |    \\  /    |  | |___" << endl;
@@ -31,9 +32,19 @@ int main()
 	switch (choice)
 	{
 	case 1:
+		system("cls");
 		cout << "Please write your id number here: ";
 		cin >> global_id_num;
-		break;
+		
+		for (int i = 0; i < ; i++)
+		{
+			subs_global_id = global_id_num / 1000;
+			if (subs_global_id > 0)
+			{
+				cout << "Try again: ";
+				cin >> global_id_num;
+			}
+		}
 
 	case 2:
 		system("cls");
