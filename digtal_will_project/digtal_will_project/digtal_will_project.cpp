@@ -4,10 +4,13 @@ using namespace std;
 
 int global_id_num;
 int choice;
+int sec_choice;
 
 int main()
 {
-	int subs_global_id;
+	int withdrawM;
+	int insertM;
+	float balance = 0;
 	cout << " _________   ___   ___      ___    _____" << endl;
 	cout << "|         | |___| |   \\    /   |  | ____|" << endl;
 	cout << "|__     __|  ___  |    \\  /    |  | |___" << endl;
@@ -29,23 +32,77 @@ int main()
 	cout << setw(20) << "Please select write you: ";
 	cin >> choice;
 	cout << endl;
+
 	switch (choice)
 	{
 	case 1:
 		system("cls");
 		cout << "Please write your id number here: ";
 		cin >> global_id_num;
-		
-		for (int i = 0; i < ; i++)
+		if (global_id_num > 999 || global_id_num < 100)
 		{
-			subs_global_id = global_id_num / 1000;
-			if (subs_global_id > 0)
-			{
-				cout << "Try again: ";
-				cin >> global_id_num;
-			}
+			cout << "Wrong Input";
+			break;
 		}
+		system("cls");
+		cout << "BALANCE: " << balance;
+		cout << endl;
+		cout << endl;
+		cout << endl;
+		cout << setw(20) << "1.Insert";
+		cout << setw(30) << "2.Withdraw";
+		cout << setw(40) << "3.Set your digital will" << endl;
+		cout << endl;
+		cout << endl;
+		cout << "Please select your choice: ";
+		cin >> sec_choice;
+		switch (sec_choice)
+		{
+		case 1:
+			system("cls");
+			cout << "How much money would you like to insert: ";
+			cin >> insertM;
+			if (insertM < 0)
+			{
+				cout << "Wrong input, deactivation!!!";
+				break;
+			}
+			cout << endl;
+			cout << "Please wait...";
+			cout << endl;
+			balance += insertM;
+			cout << "Everything is up-to date!";
+			cout << endl;
+			cout << endl;
+			cout << endl;
+			break;
 
+		case 2:
+			system("cls");
+			cout << "How much money would you like to withdraw: ";
+			cin >> withdrawM;
+			if (withdrawM < 0)
+			{
+				cout << "Wrong input, deactivation!!!";
+				break;
+			}
+			cout << endl;
+			cout << "Please wait...";
+			cout << endl;
+			balance -= withdrawM;
+			cout << "Everything is up-to date!";
+			cout << endl;
+			cout << endl;
+			cout << endl;
+			break;
+		case 3:
+
+			break;
+
+		default:
+			break;
+		}
+		break;
 	case 2:
 		system("cls");
 		cout << "To get your own id number please go in the python program fill in the needed information and you will be able to receive one";
