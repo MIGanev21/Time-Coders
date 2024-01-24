@@ -36,7 +36,7 @@ int main()
 	cout << "--------------------------------------------------------1.Login---------------------------------------------------------" << endl;
 	cout << "----------------------------------------------2.How to get your own id number-------------------------------------------" << endl;
 	cout << "--------------------------------------------------------3.Quit----------------------------------------------------------" << endl;
-	cout << setw(20) << "Please select write you: ";
+	cout << setw(20) << "Select option: ";
 	cin >> choice;
 	cout << endl;
 
@@ -44,7 +44,7 @@ int main()
 	{
 	case 1:
 		system("cls");
-		cout << "Please write your id number here: ";
+		cout << "Write your id number here: ";
 		cin >> global_id_num;
 		if (global_id_num > 999 || global_id_num < 100)
 		{
@@ -61,7 +61,7 @@ int main()
 		cout << setw(40) << "3.Set your digital will" << endl;
 		cout << endl;
 		cout << endl;
-		cout << "Please select your choice: ";
+		cout << "Select your choice: ";
 		cin >> sec_choice;
 		switch (sec_choice)
 		{
@@ -121,7 +121,7 @@ int main()
 
 		case 3:
 			system("cls");
-			cout << setw(50) << "Please write the info about you digital will";
+			cout << setw(50) << "Write the info about you digital will";
 			cout << endl;
 			cout << endl;
 			cout << endl;
@@ -141,7 +141,7 @@ int main()
 			cout << "Telephone number of the receiver: ";
 			getline(cin, RecTelNum);
 			arrWill[3] = RecTelNum;
-			cout << "To check you Will please write your id number: ";
+			cout << "To check you Will, write your id number: ";
 			cin >> SecCheck;
 			if (SecCheck == global_id_num)
 			{
