@@ -20,7 +20,6 @@
 <p align="left">
   <a href="https://www.cplusplus.com/"><img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" alt="C++"/></a>
   <a href="https://www.python.org/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png" alt="Python" height=48px width=48px/></a> 
-  <a href="https://www.raylib.com/"><img src ="https://upload.wikimedia.org/wikipedia/commons/f/f4/Raylib_logo.png" alt="Raylib" heigh=48px width=48px/></a>
 
 </p>
 
@@ -54,7 +53,7 @@
 ```
 You can download our project by using the green "Code" button.
 
-Or by pasting the following code in your CMD:
+Or by pasting the following code in your CMD: https://github.com/MIGanev21/Time-Coders.git
 
 ```
 
@@ -62,7 +61,7 @@ Or by pasting the following code in your CMD:
 
 *You can access our website by pasting this link into your browser.*
 ```
- 
+ https://github.com/MIGanev21/Time-Coders.git
 ```
 
 ## 👨🏻‍💻 Team Members
