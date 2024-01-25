@@ -1,7 +1,7 @@
 <h1 align="center">Time Coders</h1>
 
 <p align = "center">
- <img height="300" width="500" src = "My-Digital-Will-Project/Logo/Logo.png" alt = "logo">
+ <img height="300" width="500" src = "My-Digital-Will-Project/Images/Logo.png" alt = "logo">
 </p>
 
 <br>
@@ -76,5 +76,5 @@ Or by pasting the following code in your CMD: https://github.com/MIGanev21/Time-
 
 ## 
 
-<img height="600" width="1050" src = ""/>
-<img height="600" width="1050" src = ""/>
+<img height="400" width="850" src = "My-Digital-Will-Project/Images/App_image_MainMenu.png"/>
+<img height="400" width="850" src = "My-Digital-Will-Project/Images/App_image_SelctionPage.png"/>
