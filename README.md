@@ -7,14 +7,14 @@
 <br>
 
 <p align = "center">
-  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/MIGanev21/My-Digital-Will-Project?style=flat-square">
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/MIGanev21/My-Digital-Will-Project?style=flat-square">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/MIGanev21/My-Digital-Will-Project?style=flat-square">
-  <img src="https://img.shields.io/github/languages/count/MIGanev21/My-Digital-Will-Project?style=flat-square">
+  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/MIGanev21/Time-Coders?style=flat-square">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/MIGanev21/Time-Coders?style=flat-square">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/MIGanev21/Time-Coders?style=flat-square">
+  <img src="https://img.shields.io/github/languages/count/MIGanev21/Time-Coders?style=flat-square">
 </p> 
 
 ## 📋 Description
-
+Our idea was to create an application that would help make a will easier digitally, as our users would be able to bequeath any material benefits.
 
 ## 🚀 Languages and Libraries
 <p align="left">
