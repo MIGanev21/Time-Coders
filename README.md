@@ -44,7 +44,7 @@
   </ul> 
 <h4>Presenting</h4>
   <ul>    
-    <li><a href="My-Digital-Will-Project/Documentation/presentation.pptx">Presentation</a></li>
+    <li><a href="My-Digital-Will-Project/Documentation/Time Coders_presentation.pptx">Presentation</a></li>
   </ul> 
    
 
@@ -57,7 +57,7 @@ Or by pasting the following code in your CMD: https://github.com/MIGanev21/Time-
 
 ```
 
-## ⚙ Website Access
+## ⚙ Repository Access
 
 *You can access our website by pasting this link into your browser.*
 ```
