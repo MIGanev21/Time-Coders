@@ -1,11 +1,12 @@
 #include <iostream>
 #include <iomanip>
 #include <string>
+#include <fstream>
 using namespace std;
 
-int global_id_num;
+int globalIdNum;
 int choice;
-int sec_choice;
+int secChoice;
 int withdrawM;
 int insertM;
 float balance = 100;
@@ -45,8 +46,8 @@ int main()
 	case 1:
 		system("cls");
 		cout << "Write your id number here: ";
-		cin >> global_id_num;
-		if (global_id_num > 999 || global_id_num < 100)
+		cin >> globalIdNum;
+		if (globalIdNum > 999 || globalIdNum < 100)
 		{
 			cout << "Wrong Input";
 			break;
@@ -62,8 +63,8 @@ int main()
 		cout << endl;
 		cout << endl;
 		cout << "Select your choice: ";
-		cin >> sec_choice;
-		switch (sec_choice)
+		cin >> secChoice;
+		switch (secChoice)
 		{
 		case 1:
 			system("cls");
@@ -81,7 +82,7 @@ int main()
 			balance += insertM;
 			cout << "Everything is up-to date! If you want to check you balance type you id number: ";
 			cin >> SecCheck;
-			if (SecCheck == global_id_num)
+			if (SecCheck == globalIdNum)
 			{
 				cout << "BALANCE" << balance;
 			}
@@ -108,7 +109,7 @@ int main()
 			balance -= withdrawM;
 			cout << "Everything is up-to date! If you want to check you balance type you id number: ";
 			cin >> SecCheck;
-			if (SecCheck == global_id_num)
+			if (SecCheck == globalIdNum)
 			{
 				cout << "BALANCE" << balance;
 			}
@@ -143,7 +144,7 @@ int main()
 			arrWill[3] = RecTelNum;
 			cout << "To check you Will, write your id number: ";
 			cin >> SecCheck;
-			if (SecCheck == global_id_num)
+			if (SecCheck == globalIdNum)
 			{
 				system("cls");
 				cout << arrWill[0] << endl;
