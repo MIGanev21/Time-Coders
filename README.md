@@ -1,20 +1,20 @@
 <h1 align="center">Time Coders</h1>
 
 <p align = "center">
- <img height="300" width="500" src = "My-Digital-Will-Project/Logo/Logo.png" alt = "logo">
+ <img height="300" width="500" src = "My-Digital-Will-Project/Images/Logo.png" alt = "logo">
 </p>
 
 <br>
 
 <p align = "center">
-  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/MIGanev21/My-Digital-Will-Project?style=flat-square">
-  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/MIGanev21/My-Digital-Will-Project?style=flat-square">
-  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/MIGanev21/My-Digital-Will-Project?style=flat-square">
-  <img src="https://img.shields.io/github/languages/count/MIGanev21/My-Digital-Will-Project?style=flat-square">
+  <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/MIGanev21/Time-Coders?style=flat-square">
+  <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/MIGanev21/Time-Coders?style=flat-square">
+  <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/MIGanev21/Time-Coders?style=flat-square">
+  <img src="https://img.shields.io/github/languages/count/MIGanev21/Time-Coders?style=flat-square">
 </p> 
 
 ## 📋 Description
-
+Our idea was to create an application that would help make a will easier digitally, as our users would be able to bequeath any material benefits.
 
 ## 🚀 Languages and Libraries
 <p align="left">
@@ -44,7 +44,7 @@
   </ul> 
 <h4>Presenting</h4>
   <ul>    
-    <li><a href="My-Digital-Will-Project/Documentation/presentation.pptx">Presentation</a></li>
+    <li><a href="My-Digital-Will-Project/Documentation/Time Coders_presentation.pptx">Presentation</a></li>
   </ul> 
    
 
@@ -57,7 +57,7 @@ Or by pasting the following code in your CMD: https://github.com/MIGanev21/Time-
 
 ```
 
-## ⚙ Website Access
+## ⚙ Repository Access
 
 *You can access our website by pasting this link into your browser.*
 ```
@@ -76,5 +76,5 @@ Or by pasting the following code in your CMD: https://github.com/MIGanev21/Time-
 
 ## 
 
-<img height="600" width="1050" src = ""/>
-<img height="600" width="1050" src = ""/>
+<img height="400" width="850" src = "My-Digital-Will-Project/Images/App_image_MainMenu.png"/>
+<img height="400" width="850" src = "My-Digital-Will-Project/Images/App_image_SelctionPage.png"/>
