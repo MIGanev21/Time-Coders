@@ -8,7 +8,7 @@ int globalIdNum;
 int choice;
 int secChoice;
 int withdrawM;
-int insertM;
+int depositM;
 float balance = 100;
 string arrWill[100];
 int SecCheck;
@@ -57,7 +57,7 @@ int main()
 		cout << endl;
 		cout << endl;
 		cout << endl;
-		cout << setw(20) << "1.Insert";
+		cout << setw(20) << "1.Deposit";
 		cout << setw(30) << "2.Withdraw";
 		cout << setw(40) << "3.Set your digital will" << endl;
 		cout << endl;
@@ -68,9 +68,9 @@ int main()
 		{
 		case 1:					// select insert menu
 			system("cls");
-			cout << "How much money would you like to insert: ";
-			cin >> insertM;
-			if (insertM < 0)
+			cout << "How much money would you like to deposit: ";
+			cin >> depositM;
+			if (depositM < 0)
 			{
 				cout << "Wrong input, deactivation!!!";
 				break;
@@ -79,12 +79,12 @@ int main()
 			cout << "Please wait...";
 			cout << endl;
 			cout << endl;
-			balance += insertM;
+			balance += depositM;
 			cout << "Everything is up-to date! If you want to check you balance type you id number: ";
 			cin >> SecCheck;
 			if (SecCheck == globalIdNum)   // check id 
 			{
-				cout << "BALANCE" << balance;
+				cout << "BALANCE: " << balance;
 			}
 			cout << endl;
 			cout << endl;
@@ -111,7 +111,7 @@ int main()
 			cin >> SecCheck;
 			if (SecCheck == globalIdNum)		//check id input
 			{
-				cout << "BALANCE" << balance;
+				cout << "BALANCE :" << balance;
 			}
 			cout << endl;
 			cout << endl;
@@ -122,24 +122,24 @@ int main()
 
 		case 3:                        // select "Set your digital will" menu
 			system("cls");
-			cout << setw(50) << "Write the info about you digital will";
+			cout << setw(50) << "Write the info for your digital will";
 			cout << endl;
 			cout << endl;
 			cout << endl;
-			cout << "Name: ";
+			cout << "Name of the heir: ";
 			getline(cin, Recname);
 			getline(cin, Recname);
 			arrWill[0] = Recname;
 			cout << endl;
-			cout << "What do you leave for the person above: ";
+			cout << "What do you leave for the person: ";
 			getline(cin, Recwill);
 			arrWill[1] = Recwill;
 			cout << endl;
-			cout << "Where does the person above live: ";
+			cout << "Where does the person live: ";
 			getline(cin, Recadress);
 			arrWill[2] = Recadress;
 			cout << endl;
-			cout << "Telephone number of the receiver: ";
+			cout << "Phone number of the receiver: ";
 			getline(cin, RecTelNum);
 			arrWill[3] = RecTelNum;
 			cout << "To check you Will, write your id number: ";
