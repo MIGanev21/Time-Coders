@@ -38,11 +38,11 @@ Our idea was to create an application that would help make a will easier digital
  
 <h4>Documents</h4>
   <ul>
-    <li><a href="My-Digital-Will-Project/Documentation/Time_Coders_documentation.docx">Documentation</a></li>
+    <li><a href="My-Digital-Will-Project/Documents/Time_Coders_documentation.docx">Documentation</a></li>
   </ul> 
 <h4>Presenting</h4>
   <ul>    
-    <li><a href="My-Digital-Will-Project/Documentation/Time Coders_presentation .pptx">Presentation</a></li>
+    <li><a href="My-Digital-Will-Project/Documents/Time Coders_presentation .pptx">Presentation</a></li>
   </ul> 
    
 
