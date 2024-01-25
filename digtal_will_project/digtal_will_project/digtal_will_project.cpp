@@ -41,13 +41,13 @@ int main()
 	cin >> choice;
 	cout << endl;
 
-	switch (choice)
+	switch (choice) // select menu option
 	{
 	case 1:
 		system("cls");
 		cout << "Write your id number here: ";
-		cin >> globalIdNum;
-		if (globalIdNum > 999 || globalIdNum < 100)
+		cin >> globalIdNum;   // instert id 
+		if (globalIdNum > 999 || globalIdNum < 100) // check if id is correct
 		{
 			cout << "Wrong Input";
 			break;
@@ -64,9 +64,9 @@ int main()
 		cout << endl;
 		cout << "Select your choice: ";
 		cin >> secChoice;
-		switch (secChoice)
+		switch (secChoice)		// select from menu options
 		{
-		case 1:
+		case 1:					// select insert menu
 			system("cls");
 			cout << "How much money would you like to insert: ";
 			cin >> insertM;
@@ -82,7 +82,7 @@ int main()
 			balance += insertM;
 			cout << "Everything is up-to date! If you want to check you balance type you id number: ";
 			cin >> SecCheck;
-			if (SecCheck == globalIdNum)
+			if (SecCheck == globalIdNum)   // check id 
 			{
 				cout << "BALANCE" << balance;
 			}
@@ -93,20 +93,20 @@ int main()
 			cout << endl;
 			break;
 
-		case 2:
+		case 2:					 // select withdraw menu
 			system("cls");
 			cout << "How much money would you like to withdraw: ";
 			cin >> withdrawM;
-			if (withdrawM < 0 or withdrawM > balance)
+			if (withdrawM < 0 || withdrawM > balance)       // check if balance is illegitimate
 			{
-				cout << "Wrong input, deactivation!!!";
+				cout << "Wrong input, deactivation!";
 				break;
 			}
 			cout << endl;
 			cout << "Please wait...";
 			cout << endl;
 			cout << endl;
-			balance -= withdrawM;
+			balance -= withdrawM;			// remove withdraw amount from the balance
 			cout << "Everything is up-to date! If you want to check you balance type you id number: ";
 			cin >> SecCheck;
 			if (SecCheck == globalIdNum)
@@ -120,7 +120,7 @@ int main()
 			cout << endl;
 			break;
 
-		case 3:
+		case 3:                        // select "Set your digital will" menu
 			system("cls");
 			cout << setw(50) << "Write the info about you digital will";
 			cout << endl;
@@ -144,7 +144,7 @@ int main()
 			arrWill[3] = RecTelNum;
 			cout << "To check you Will, write your id number: ";
 			cin >> SecCheck;
-			if (SecCheck == globalIdNum)
+			if (SecCheck == globalIdNum)			
 			{
 				system("cls");
 				cout << arrWill[0] << endl;
