@@ -109,7 +109,7 @@ int main()
 			balance -= withdrawM;			// remove withdraw amount from the balance
 			cout << "Everything is up-to date! If you want to check you balance type you id number: ";
 			cin >> SecCheck;
-			if (SecCheck == globalIdNum)
+			if (SecCheck == globalIdNum)		//check id input
 			{
 				cout << "BALANCE" << balance;
 			}
