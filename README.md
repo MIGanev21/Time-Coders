@@ -29,7 +29,6 @@ Our idea was to create an application that would help make a will easier digital
   <a href="https://code.visualstudio.com/"><img src="https://img.icons8.com/color/48/null/visual-studio-code-2019.png" alt="Visual Studio Code 2019"/></a>
   <a href="https://www.microsoft.com/en-ww/microsoft-365/word"><img src="https://img.icons8.com/fluency/48/000000/microsoft-word-2019.png" alt="MS Word logo" width=48px /></a>
   <a href="https://www.microsoft.com/en-us/microsoft-365/powerpoint"><img src="https://img.icons8.com/fluency/48/000000/microsoft-powerpoint-2019.png" alt="MS PowerPoint logo" width=48px /></a>
-  <a href="https://www.microsoft.com/en-us/microsoft-365/excel"><img src="https://img.icons8.com/fluency/48/000000/microsoft-excel-2019.png" alt="MS Excel logo"/></a>
   <a href="https://www.adobe.com/"><img src="https://img.icons8.com/color/48/null/adobe-illustrator--v1.png" alt="Adobe"/></a>
   <a href="https://git-scm.com/"><img src="https://img.icons8.com/color/48/000000/git.png" alt="Git"/></a>
   <a href="https://git-scm.com/"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" heigh=48px width=48px/></a>
@@ -39,12 +38,11 @@ Our idea was to create an application that would help make a will easier digital
  
 <h4>Documents</h4>
   <ul>
-    <li><a href="My-Digital-Will-Project/Documentation/Time Coders_documentation.docx">Documentation</a></li>
-    <li><a href="">QA Table</a></li>
+    <li><a href="My-Digital-Will-Project/Documentation/Time_Coders_documentation.docx">Documentation</a></li>
   </ul> 
 <h4>Presenting</h4>
   <ul>    
-    <li><a href="My-Digital-Will-Project/Documentation/Time Coders_presentation.pptx">Presentation</a></li>
+    <li><a href="My-Digital-Will-Project/Documentation/Time Coders_presentation .pptx">Presentation</a></li>
   </ul> 
    
 
@@ -59,7 +57,7 @@ Or by pasting the following code in your CMD: https://github.com/MIGanev21/Time-
 
 ## ⚙ Repository Access
 
-*You can access our website by pasting this link into your browser.*
+*You can access our repository by pasting this link into your browser.*
 ```
  https://github.com/MIGanev21/Time-Coders.git
 ```
